@@ -45,7 +45,7 @@ pytest
 uvicorn app:app --reload
 ```
 ## Example Query
-```JSON
+```json
 {
   "query": "What evidence supports continuing injury?"
 }
@@ -59,7 +59,7 @@ This project demonstrates end-to-end RAG system design including document ingest
 ## Design Decisions
 
 - **Embedding Model**: all-MiniLM-L6-v2 chosen for speed vs accuracy tradeoff
-- **Chunking Strategy**: 600 tokens with 100 overlap to preserve context continuity
+- **Chunking Strategy**: 600 tokens with 100 overlap
 - **Vector Store**: FAISS for fast local similarity search
 - **Top-K Retrieval**: 4 documents to balance recall vs noise
 - **Fallback Mode**: Supports retrieval-only when LLM is disabled
