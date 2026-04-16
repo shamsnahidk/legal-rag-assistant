@@ -1,6 +1,6 @@
 # Legal RAG Assistant
 
-A lightweight Retrieval-Augmented Generation project for document ingestion, semantic retrieval, and question answering over legal-style text.
+A production-style Retrieval-Augmented Generation (RAG) system for legal document analysis using FAISS, SentenceTransformers, and FastAPI.
 
 ## What it does
 - Ingests `.txt`, `.md`, and `.pdf` files
