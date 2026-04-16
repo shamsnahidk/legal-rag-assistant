@@ -33,7 +33,7 @@ legal-rag-assistant/
 │   └── sample_legal_memo.txt
 └── tests/
     └── test_chunking.py
-```text
+---
 
 ## Run Locally
 python -m venv .venv
