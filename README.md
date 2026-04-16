@@ -36,7 +36,6 @@ legal-rag-assistant/
 ```
 
 ## Run Locally
-## Run Locally
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
@@ -44,15 +43,13 @@ pip install -r requirements.txt
 python ingest.py
 pytest
 uvicorn app:app --reload
-
-
+```
 ## Example Query
 ```JSON
 {
   "query": "What evidence supports continuing injury?"
 }
 ```
-
 ## Example Output
 The system returns a concise answer grounded in retrieved document chunks, along with cited source references and retrieval scores.
 
