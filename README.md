@@ -33,15 +33,14 @@ legal-rag-assistant/
 │   └── sample_legal_memo.txt
 └── tests/
     └── test_chunking.py
----
 
 ## Run Locally
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-python ingest.py
-pytest
-uvicorn app:app --reload
+-python -m venv .venv
+-.venv\Scripts\activate
+-pip install -r requirements.txt
+-python ingest.py
+-pytest
+-uvicorn app:app --reload
 
 ## Example Query
 {
