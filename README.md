@@ -19,7 +19,7 @@ A production-style Retrieval-Augmented Generation (RAG) system for legal documen
 - Pytest
 
 ## Project Structure
-
+```text
 legal-rag-assistant/
 ├── app.py
 ├── ingest.py
