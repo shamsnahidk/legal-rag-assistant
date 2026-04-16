@@ -33,3 +33,15 @@ legal-rag-assistant/
 │   └── sample_legal_memo.txt
 └── tests/
     └── test_chunking.py
+## Run Locally
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+python ingest.py
+pytest
+uvicorn app:app --reload
+##JSON
+{
+  "query": "What evidence supports continuing injury?"
+}
